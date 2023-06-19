@@ -105,7 +105,7 @@ app.delete('/item/:id', async (req, res) => {
 
 mongoose
   .connect(
-    'mongodb+srv://rafaelbeiral:28L3ZfsOHItBAUPj@cluster0.nc308tn.mongodb.net/?retryWrites=true&w=majority  ',
+    'mongodb+srv://<username>:<password>@cluster0.nc308tn.mongodb.net/?retryWrites=true&w=majority  ',
   )
   .then(() => {
     console.log('Conectou ao banco!')
